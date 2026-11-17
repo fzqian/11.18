@@ -1,0 +1,11 @@
+{
+ "说明": "六个阶段的主干导航。href 换成实际文件名即可；off=true 的只显示灰字「暂不开放」，点不动。",
+ "items": [
+  { "label": "接通建联", "key": "connect", "href": "接通建联(可用于案例分享).html" },
+  { "label": "定级探需", "off": true },
+  { "label": "价值传递", "key": "value", "href": "价值传递(可用于案例分享).html" },
+  { "label": "方案报价", "off": true },
+  { "label": "异议处理", "off": true },
+  { "label": "逼单收口", "off": true }
+ ]
+}

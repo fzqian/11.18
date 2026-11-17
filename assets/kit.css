@@ -1,0 +1,32 @@
+/* kit.css —— 套件自己补的一点点样式，不改动 style.css 原有规则。 */
+
+/* 还没做的阶段：灰字 + 「暂不开放」小标，点不动，避免 href="" 点了重载 */
+.nav-links .nav-off {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 13.5px;
+  color: #A8A396;
+  white-space: nowrap;
+  cursor: default;
+  user-select: none;
+}
+.nav-links .nav-off em {
+  font-style: normal;
+  font-size: 10.5px;
+  line-height: 1;
+  padding: 3px 5px;
+  border: 1px solid #DED9CC;
+  border-radius: 999px;
+  color: #B3AEA1;
+  letter-spacing: 0;
+}
+
+/* 窄屏：六项塞不下，横向能滑，右侧给一点渐隐提示还有东西 */
+@media (max-width: 760px) {
+  .nav-links {
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+    mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+  }
+}

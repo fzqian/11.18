@@ -1,0 +1,103 @@
+{
+ "说明": "这一页的『散文部分』。改文案改这里；聊天记录在 cases/*.json；两者都由 kit/build.py 拼成页面。",
+ "kind": "connect",
+ "out": "接通建联(可用于案例分享).html",
+ "title": "接通建联｜体德智训 · 阶段 1",
+ "desc": "接通建联教材版：四要件怎么判（自我介绍 / 称呼客户 / 说明来意 / 客户回应）+ 一组从头看到尾的原文案例，聊天记录整段标色，逐字可查。",
+ "css": [
+  "assets/style.css?v=10",
+  "assets/manual.css?v=2",
+  "assets/livechat.css?v=5",
+  "assets/connect.css?v=5"
+ ],
+ "brand": "体德智训 · 接通建联",
+ "hero": {
+  "eyebrow": "Stage 1 · 接通建联",
+  "h1": [
+   "第一次接触",
+   "<em>四件事做完才算接通</em>"
+  ],
+  "cards": [
+   {
+    "no": "①",
+    "name": "自我介绍",
+    "kicker": "判销售的行动",
+    "lead": "我是谁",
+    "note": "姓名或称呼 + 身份来路，能被验证"
+   },
+   {
+    "no": "②",
+    "name": "称呼客户",
+    "kicker": "判销售的行动",
+    "lead": "怎么叫他",
+    "note": "说了姓，下一句就用上；没说用代称顶"
+   },
+   {
+    "no": "③",
+    "name": "说明来意",
+    "kicker": "判销售的行动",
+    "lead": "谈什么",
+    "note": "接住线索里已有的信息，不重问一遍"
+   },
+   {
+    "no": "④",
+    "name": "客户回应",
+    "kicker": "判客户的动作",
+    "lead": "他有没有接",
+    "note": "给信息、提问题、确认到具体点"
+   }
+  ],
+  "meta": [
+   "口径逐字来自两份招生培训文档，标了 [原文] 的不改动一个字",
+   "聊天记录整段可查 · 口径细则见下方折叠区"
+  ]
+ },
+ "stages": [
+  {
+   "no": 1,
+   "mark": "①",
+   "name": "自我介绍",
+   "chip": "①",
+   "color": "#2563EB",
+   "bandbg": "#E8EFFF",
+   "legend": ""
+  },
+  {
+   "no": 2,
+   "mark": "②",
+   "name": "称呼客户",
+   "chip": "②",
+   "color": "#7C3AED",
+   "bandbg": "#F2EBFE",
+   "legend": ""
+  },
+  {
+   "no": 3,
+   "mark": "③",
+   "name": "说明来意",
+   "chip": "③",
+   "color": "#0E9F6E",
+   "bandbg": "#E6F9F1",
+   "legend": ""
+  },
+  {
+   "no": 4,
+   "mark": "④",
+   "name": "客户回应",
+   "chip": "④",
+   "color": "#D97706",
+   "bandbg": "#FFF4DF",
+   "legend": ""
+  }
+ ],
+ "sec": {
+  "no": "第 2 块 / 做对的",
+  "h": "参考话术："
+ },
+ "footer": "<div class=\"eyebrow\">Stage 1 · Connect</div>\n  <p>接通建联 · 判据取自《招生老师沟通六阶段参考场景》阶段 1、《招生老师参考话术》§一 破冰话术 ｜ 样例：招生老师 × 黄女士（官抖短视频线索），414 条，2026-09-29 至 10-22 ｜ 逐句读过原文，非词表命中</p>",
+ "cases": "cases/01_接通建联.json",
+ "fold_html": "<details class=\"cc-fold rv\" id=\"ccFold\">\n<summary class=\"cc-fold-sum\">\n<span class=\"ccf-no\">C1 / 口径</span>\n<span class=\"ccf-t\">口径细则</span>\n<span class=\"ccf-chips\"><b>两种线索两种开口</b><b>代称也算称呼</b><b>八句禁区</b></span>\n<span class=\"ccf-act\"><span class=\"t1\">展开看 ↓</span><span class=\"t2\">收起 ↑</span></span>\n</summary>\n<div class=\"cc-fold-body\">\n<div class=\"rv cc-part\">\n  <h3>两种线索，两种开口</h3>\n  <p>两类线索的差别只有一处：<b>开口时「已知信息」的多少</b>。用错类型最典型的症状，\n  就是客户已经说过三遍的信息被问第四遍。</p>\n\n  <div class=\"cc-lead2\">\n    <div class=\"l2\"><span class=\"l2t\">直接线索 · 陌生</span>\n      <p class=\"l2q\">哈喽，你好！我是体德从业7年的健身教练x老师，有一线带训+健身房管理经验，国职+NASM双认证教练，怎么称呼你啊 同学？</p>\n      <p class=\"l2q\">哈喽，你好！我是体德智训负责招生+就业指导的x老师，看到你有咨询意向，咱们主要是想了解这边的环境、课程内容、证书区别、价格、吃住安排、还是就业方面呢？我先挑你感兴趣的讲。</p>\n      <p class=\"l2n\">自我介绍带资历 + 问称呼 + 给选项让客户挑切入点，①②③ 全靠这一句立起来。</p></div>\n    <div class=\"l2 l2b\"><span class=\"l2t\">私域转接 · 已聊过</span>\n      <p class=\"l2q\">先看转接前的聊天记录。顺着用户原有意向承接沟通，不要重复问用户已经说过的信息，不从头开始打招呼问好，有前端沟通的铺垫可直入主题。</p>\n      <p class=\"l2n\">③ 的重点变成<b>复述已知 + 确认</b>，不是问一遍。两类都要说明来意，\n      但说什么算说明来意不一样。</p></div>\n  </div>\n</div>\n\n<div class=\"rv cc-part\">\n  <h3>客户不报名字：代称也算称呼</h3>\n  <p>② 判的是<b>「有没有给客户一个称呼」</b>，不是「有没有问到真名」。问了客户不肯说、或者回一句「随便」，\n  再追就成了盘问。这时换一个代称接着聊，② 照样成立。</p>\n\n  <ul class=\"cc-alias\">\n    <li>同学</li><li>铁子</li><li>好兄弟</li><li>宝子</li><li>姐妹</li>\n  </ul>\n\n  <div class=\"cc-vs\">\n    <div class=\"vs vs-y\"><span class=\"vst\">算</span>\n      <p>客户没给名字（或只说「随便」），销售用一个代称<b>从头叫到尾</b></p></div>\n    <div class=\"vs vs-n\"><span class=\"vst\">不算</span>\n      <p>客户说了「姓黄」，下一句还叫「同学」——<b>没接住客户给的信息</b></p></div>\n  </div>\n\n  <p class=\"cc-fine\">代称只顶替<b>「客户没说」</b>这一种情况；说过了就必须用上，这是 ② 的要害。\n  全程只用同一个，一句「宝子」一句「姐妹」来回换，显得没在听；选词跟客户的年纪、语气对上即可——\n  「铁子」「好兄弟」偏熟络，「同学」「宝子」「姐妹」偏轻。<br>\n  <b>来源</b>：这一条是 2026-11-10 补充确认的团队口径，两份培训文档里没有原文，按约定执行。</p>\n</div>\n\n<div class=\"rv cc-part\">\n  <h3>八句禁区</h3>\n  <p>文档原话：这类话术带有催促、质问感，容易给陌生客户造成压迫感，引发反感、拉黑，\n  新人尤其注意避开。开场与客户沉默唤醒，都要规避。</p>\n  <ul class=\"cc-ban\">\n    <li>喂喂喂，还了解吗？</li>\n    <li>吱一声啊</li>\n    <li>还在吗</li>\n    <li>说句话呀</li>\n    <li>在不在？看到回一下</li>\n    <li>怎么不说话了？还考虑吗？</li>\n    <li class=\"b2\">发 无语 / 流汗 / 狗头 等不礼貌的表情</li>\n  </ul>\n  <p class=\"cc-fine\">原文列了 6 句 + 一类表情。判违规看的是<b>意图</b>不是原句——\n  「在吗」「哈喽？」「？？」这类追问同一件事的，都属于同一类。这一条是<b>一票否决</b>性质：\n  四要件全齐但用了禁区话术，不算做得好。</p>\n</div>\n</div>\n</details>",
+ "tail_script": "<script>\n/* 顶部导航「一 · 口径」指向 #c-rule，而那一块默认是折着的。\n   点导航要能直接看到内容，所以落到这个锚点时自动展开一次；\n   手动收起后不再抢着打开（只在 hash 变化时触发）。 */\n(function () {\n  var d = document.getElementById('ccFold');\n  if (!d) return;\n  function sync() {\n    if (location.hash === '#c-rule') d.open = true;\n  }\n  sync();\n  window.addEventListener('hashchange', sync);\n})();\n</script>",
+ "key": "connect",
+ "nav_name": "接通建联"
+}
